@@ -1,4 +1,5 @@
+#Ignoring all log files
 *.aux
 *.log
 *.out
-*synctex.gz
+*.synctex.gz
