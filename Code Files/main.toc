@@ -40,11 +40,22 @@
 \contentsline {subsubsection}{\numberline {1.4.3}Hyperbolas}{11}{subsubsection.1.4.3}%
 \contentsline {subsubsection}{\numberline {1.4.4}Parabolas}{11}{subsubsection.1.4.4}%
 \contentsline {subsection}{\numberline {1.5}Parametric Equations}{12}{subsection.1.5}%
-\contentsline {subsubsection}{\numberline {1.5.1}Sketching Parametric Curves}{12}{subsubsection.1.5.1}%
+\contentsline {subsubsection}{\numberline {1.5.1}Sketching Parametric Curves (Using GC)}{12}{subsubsection.1.5.1}%
 \contentsline {subsubsection}{\numberline {1.5.2}Finding Asymptotes of Parametric Curves}{12}{subsubsection.1.5.2}%
 \contentsline {subsubsection}{\numberline {1.5.3}Conversion of Parametric to Cartesian Equations}{12}{subsubsection.1.5.3}%
 \contentsline {section}{\numberline {2}Equations \& Inequalities}{13}{section.2}%
-\contentsline {section}{\numberline {3}Functions}{13}{section.3}%
-\contentsline {section}{\numberline {4}Sequences \& Series}{14}{section.4}%
-\contentsline {section}{\numberline {5}Vectors}{14}{section.5}%
-\contentsline {section}{\numberline {6}Recurrence Relations}{15}{section.6}%
+\contentsline {subsection}{\numberline {2.1}Solving Equations using GC}{13}{subsection.2.1}%
+\contentsline {subsubsection}{\numberline {2.1.1}Graphical Method}{13}{subsubsection.2.1.1}%
+\contentsline {subsubsection}{\numberline {2.1.2}Equation Solver (Not Recommended)}{13}{subsubsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.2}System of Linear Equations}{13}{subsection.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.1}Solving with GC}{13}{subsubsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.3}Inequalities}{13}{subsection.2.3}%
+\contentsline {subsubsection}{\numberline {2.3.1}Basic Concepts}{13}{subsubsection.2.3.1}%
+\contentsline {subsubsection}{\numberline {2.3.2}Polynomial Inequalities}{14}{subsubsection.2.3.2}%
+\contentsline {subsubsection}{\numberline {2.3.3}Inequalities involving Rational Functions}{14}{subsubsection.2.3.3}%
+\contentsline {subsubsection}{\numberline {2.3.4}Inequalities involving Modulus Functions}{14}{subsubsection.2.3.4}%
+\contentsline {subsubsection}{\numberline {2.3.5}Using a Graphical Method}{14}{subsubsection.2.3.5}%
+\contentsline {section}{\numberline {3}Functions}{14}{section.3}%
+\contentsline {section}{\numberline {4}Sequences \& Series}{15}{section.4}%
+\contentsline {section}{\numberline {5}Vectors}{15}{section.5}%
+\contentsline {section}{\numberline {6}Recurrence Relations}{16}{section.6}%
