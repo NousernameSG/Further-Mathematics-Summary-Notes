@@ -120,6 +120,7 @@ determining the roots of the equation \\\\
 \end{tikzpicture} \\
 \textbf{Steps to Solve the inequality}
 \begin{enumerate}
+    \item Make the term with the highest power is positive
     \item Factorize the equation
     \item Draw a number line with the roots of the equation
     \item By either graph or test point, determine the sign of each section\\* A section is the "gap" between roots and the ends
@@ -127,14 +128,125 @@ determining the roots of the equation \\\\
 \end{enumerate}
 Graph method is to mentally graph out the shape of the graph to
 determine the sign of each section, while  test point is to test
-a number within that section (e.g using \(1\) for \(0<x<2\))to
-determine the sign
-\subsubsection{Inequalities involving Rational Functions}
+a number within that section (e.g using \(1\) for \(0<x<2\)) to
+determine the sign \\\\
+Example : \((x-1)(x-2)(x-3)>0\) \\\\
+\begin{tikzpicture}
+	% Draw number line
+	\draw[-latex] (0,0) -- (4,0) node[right] {\(x\)};
 
+	% Draw hollow circles at x=2 and 3
+	\draw[fill=white] (1,0) circle (3pt);
+	\draw[fill=white] (2,0) circle (3pt);
+	\draw[fill=white] (3,0) circle (3pt);
+
+    % Signs
+	\draw[fill=black] (0.5,0) circle (0pt) node[above] {\(-\)};
+	\draw[fill=black] (1.5,0) circle (0pt) node[above] {\(+\)};
+	\draw[fill=black] (2.5,0) circle (0pt) node[above] {\(-\)};
+	\draw[fill=black] (3.5,0) circle (0pt) node[above] {\(+\)};
+\end{tikzpicture} \\
+\(\therefore 1<x<2 \text{ or } x>3\) \\
+\(\{x \in \mathbb{R} : 1<x<2 \text{ or } x>3\}\)
+\newpage \noindent
+
+\subsubsection{Inequalities involving Rational Functions}
+Such inequalities can be solved with a similar method outlined in 2.3.2
+\begin{enumerate}
+    \item Express the inequality in the form such that one side is 0 \(\left(\text{e.g. }\displaystyle \frac{g(x)}{h(x)}>0\right)\)
+    \item Make the term with the highest power is positive
+    \item Factorize the polynomials
+    \item By either graph or test point, determine the sign of each section\\* A section is the "gap" between roots and the ends
+    \item \textbf{Check that the  x value(s) where the denominator = 0 isn't included}
+\end{enumerate}
+Example : \(\displaystyle \frac{(x-1)^{2}}{(x-3)} \geq 0\) \\\\
+\begin{tikzpicture}
+	% Draw number line
+	\draw[-latex] (0,0) -- (4,0) node[right] {\(x\)};
+
+	% Draw hollow circles at x=2 and 3
+	\draw[fill=black] (1,0) circle (3pt);
+	\draw[fill=white] (3,0) circle (3pt);
+
+    % Signs
+	\draw[fill=black] (0.5,0) circle (0pt) node[above] {\(-\)};
+	\draw[fill=black] (2,0) circle (0pt) node[above] {\(-\)};
+	\draw[fill=black] (3.5,0) circle (0pt) node[above] {\(+\)};
+\end{tikzpicture} \\
+\(\therefore x>3 \text{ or } x=1\) \\
+\(\{x \in \mathbb{R} : x>3 \text{ or } x=1\}\)
 
 \subsubsection{Inequalities involving Modulus Functions}
-
+Let \(x,y \in \mathbb{R}\) and \(a>0\) \\
+\begin{tabularx}{0.43\textwidth} {
+    | >{\centering\arraybackslash}X |}
+    \hline
+    \textbf{Properties} \\
+    \hline
+    \(|x|>a \iff x<-a \text{ or } x>a\) \\
+    \(|x|<a \iff -a<x<a\) \\
+    \hline
+    \(|x|<|y| \iff x^{2}<y^{2}\) \\
+    \(|x|>|y| \iff x^{2}>y^{2}\) \\
+    \hline
+    \(|x^{2}|=|x|^{2}=x^{2}\) \\
+    \(|xy|=|x||y|\) \\
+    \(\sqrt{x^{2}}=|x|\) \\
+    \hline
+    \(|x-y|=|y-x|\) \\
+    \hline
+    \(\displaystyle \left|\frac{x}{y}\right| = \frac{|x|}{|y|}\) \\
+    \hline
+\end{tabularx} \\\\
+Modulus Inequalities can be solved using these properties by
+maniplulating the inequality or by a graphical method (2.3.5)
+\newpage \noindent
 
 \subsubsection{Using a Graphical Method}
+Sketching the LHS and RHS of an inequality to determine the range of values \\\\
+Example : \(|x|-|0.5x+1|>1\) \\
+We can sketch the graphs \(y=|x|\) \& \(y=1+|0.5x+1|\) \\\\
+\begin{tikzpicture}[scale=0.5]
+	% Draw axes
+	\draw[-latex] (-7.5,0) -- (7.5,0) node[right] {\(x\)};
+	\draw[-latex] (0,-0.5) -- (0,6.5) node[above] {\(y\)};
+
+	% Draw y=|2x-1|
+	\draw[samples=100,domain=-5:3,smooth,variable=\x,black,ultra thick] plot ({\x},{abs(\x)});
+	\draw[samples=100,domain=3:6,smooth,variable=\x,black,ultra thick] plot ({\x},{abs(\x)});
+
+	% Draw y=2+|x+1|
+	\draw[samples=100,domain=-7:-2,smooth,variable=\x,red,ultra thick] plot ({\x},{1+abs(0.5*\x+1)});
+	\draw[samples=100,domain=-2:2,smooth,variable=\x,red,ultra thick] plot ({\x},{1+abs(0.5*\x+1)});
+	\draw[samples=100,domain=2:7,smooth,variable=\x,red,ultra thick] plot ({\x},{1+abs(0.5*\x+1)});
+
+	% Label graphs
+	\node[black] at (4,7) {\(y=|x|\)};
+	\node[red] at (-4,7) {\(y=1+|0.5x+1|\)};
+
+    % Labelling Coordinates of intercepts
+	\node[circle,fill,inner sep=1.5pt,label={below left:\(\left(-\frac{4}{3},\frac{4}{3}\right)\)}] at (-4/3,4/3) {};
+	\node[circle,fill,inner sep=1.5pt,label={below right:\((4,4)\)}] at (4,4) {};
+\end{tikzpicture} \\
+We would have to solve for the points of intercepts algebratically
+and by referring to our graph, we can determine the solution set to the inequality,
+which in this case is \(\displaystyle x<-\frac{4}{3} \text{ or } x>4\)
+
+\subsubsection{Using Substitution}
+This method is usually used when solving for an inequality with
+a similar form to one that was solved in a previous part of a question \\\\
+Example : Solve the inequality \(\displaystyle \frac{4-x}{x-2}>3\), \\* hence solve \(\displaystyle \frac{6x-2}{1-2x}>2\) \\\\
+Manipulate \(\displaystyle \frac{6x-2}{1-2x}>2\) to a similar form of \(\displaystyle \frac{4-x}{x-2}>3\)
+\begin{align*}
+    \displaystyle \frac{6x-2}{1-2x}>2 \\
+    \displaystyle \frac{6x-2}{1-2x}+1>3 \\
+    \displaystyle \frac{6x-2+1-2x}{1-2x}>3 \\
+    \displaystyle \frac{4x-1}{1-2x}>3 \\
+    \displaystyle \frac{\frac{1}{x}}{\frac{1}{x}}\left(\frac{4x-1}{1-2x}\right)>3, \; x \neq 0 \\
+    \displaystyle \frac{4-\frac{1}{x}}{\frac{1}{x}-2}>3
+\end{align*}
+Thus we had arrived at a similar form, and we can use
+the substitution \(u=\frac{1}{x}\) to solve the inequality. \\
+Note that now other than \(\displaystyle x \neq \frac{1}{2}\), \(x \neq 0\) too
 
 \end{document}
