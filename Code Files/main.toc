@@ -58,36 +58,37 @@
 \contentsline {subsubsection}{\numberline {2.3.6}Using Substitution}{15}{subsubsection.2.3.6}%
 \contentsline {section}{\numberline {3}Functions}{15}{section.3}%
 \contentsline {subsection}{\numberline {3.1}Set Notation}{15}{subsection.3.1}%
+\contentsline {subsubsection}{\numberline {3.1.1}Interval Notation}{15}{subsubsection.3.1.1}%
 \contentsline {subsection}{\numberline {3.2}Definitions}{15}{subsection.3.2}%
 \contentsline {subsubsection}{\numberline {3.2.1}Notations}{15}{subsubsection.3.2.1}%
-\contentsline {subsubsection}{\numberline {3.2.2}Relations}{15}{subsubsection.3.2.2}%
-\contentsline {subsubsection}{\numberline {3.2.3}Definition of a Function}{15}{subsubsection.3.2.3}%
-\contentsline {subsubsection}{\numberline {3.2.4}Function Test}{15}{subsubsection.3.2.4}%
-\contentsline {subsection}{\numberline {3.3}Injective Functions}{15}{subsection.3.3}%
-\contentsline {subsubsection}{\numberline {3.3.1}Definition of Injection}{15}{subsubsection.3.3.1}%
-\contentsline {subsubsection}{\numberline {3.3.2}Disproving Injectivity}{15}{subsubsection.3.3.2}%
-\contentsline {subsubsection}{\numberline {3.3.3}Proving Injevtivity}{15}{subsubsection.3.3.3}%
-\contentsline {subsection}{\numberline {3.4}*Surjective Functions}{15}{subsection.3.4}%
-\contentsline {subsubsection}{\numberline {3.4.1}Definition of Surjection}{15}{subsubsection.3.4.1}%
-\contentsline {subsubsection}{\numberline {3.4.2}Proving or Disproving Surjevtivity}{15}{subsubsection.3.4.2}%
-\contentsline {subsection}{\numberline {3.5}*Bijective Functions}{15}{subsection.3.5}%
-\contentsline {subsubsection}{\numberline {3.5.1}Definition of Bijection}{15}{subsubsection.3.5.1}%
-\contentsline {subsection}{\numberline {3.6}Inverse Functions}{15}{subsection.3.6}%
-\contentsline {subsubsection}{\numberline {3.6.1}Invese Function Notation}{15}{subsubsection.3.6.1}%
-\contentsline {subsubsection}{\numberline {3.6.2}Conditions for an inverse to exist}{15}{subsubsection.3.6.2}%
-\contentsline {subsubsection}{\numberline {3.6.3}Properties of Inverse Functions}{15}{subsubsection.3.6.3}%
-\contentsline {subsubsection}{\numberline {3.6.4}Self-Inversing functions}{15}{subsubsection.3.6.4}%
-\contentsline {subsection}{\numberline {3.7}Composite Functions}{15}{subsection.3.7}%
-\contentsline {subsubsection}{\numberline {3.7.1}Composite Function Notation}{15}{subsubsection.3.7.1}%
-\contentsline {subsubsection}{\numberline {3.7.2}Conditions for a composition to exist}{15}{subsubsection.3.7.2}%
-\contentsline {subsubsection}{\numberline {3.7.3}Finding Domain \& Range of a Composition}{15}{subsubsection.3.7.3}%
-\contentsline {subsection}{\numberline {3.8}Extensions}{15}{subsection.3.8}%
-\contentsline {subsubsection}{\numberline {3.8.1}Properties of Functions}{15}{subsubsection.3.8.1}%
-\contentsline {subsubsection}{\numberline {3.8.2}Inverse Trigonometic Functions}{15}{subsubsection.3.8.2}%
-\contentsline {subsubsection}{\numberline {3.8.3}Monotonic Functions}{15}{subsubsection.3.8.3}%
-\contentsline {subsubsection}{\numberline {3.8.4}*Floor and Ceiling Functions}{15}{subsubsection.3.8.4}%
-\contentsline {subsubsection}{\numberline {3.8.5}*Continuity \& Discontinuity}{15}{subsubsection.3.8.5}%
-\contentsline {section}{\numberline {4}Sequences \& Series}{16}{section.4}%
-\contentsline {section}{\numberline {5}Vectors}{16}{section.5}%
-\contentsline {section}{\numberline {6}Recurrence Relations}{17}{section.6}%
-\contentsline {section}{\numberline {7}Mathematical Induction}{17}{section.7}%
+\contentsline {subsubsection}{\numberline {3.2.2}Relations}{16}{subsubsection.3.2.2}%
+\contentsline {subsubsection}{\numberline {3.2.3}Definition of a Function}{16}{subsubsection.3.2.3}%
+\contentsline {subsubsection}{\numberline {3.2.4}Finding Range with GC}{16}{subsubsection.3.2.4}%
+\contentsline {subsection}{\numberline {3.3}Injective Functions}{16}{subsection.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.1}Definition of Injection}{16}{subsubsection.3.3.1}%
+\contentsline {subsubsection}{\numberline {3.3.2}Disproving Injectivity}{16}{subsubsection.3.3.2}%
+\contentsline {subsubsection}{\numberline {3.3.3}Proving Injevtivity}{16}{subsubsection.3.3.3}%
+\contentsline {subsection}{\numberline {3.4}*Surjective Functions}{16}{subsection.3.4}%
+\contentsline {subsubsection}{\numberline {3.4.1}Definition of Surjection}{16}{subsubsection.3.4.1}%
+\contentsline {subsubsection}{\numberline {3.4.2}Proving or Disproving Surjevtivity}{16}{subsubsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.5}*Bijective Functions}{16}{subsection.3.5}%
+\contentsline {subsubsection}{\numberline {3.5.1}Definition of Bijection}{16}{subsubsection.3.5.1}%
+\contentsline {subsection}{\numberline {3.6}Inverse Functions}{16}{subsection.3.6}%
+\contentsline {subsubsection}{\numberline {3.6.1}Invese Function Notation}{16}{subsubsection.3.6.1}%
+\contentsline {subsubsection}{\numberline {3.6.2}Conditions for an inverse to exist}{16}{subsubsection.3.6.2}%
+\contentsline {subsubsection}{\numberline {3.6.3}Properties of Inverse Functions}{16}{subsubsection.3.6.3}%
+\contentsline {subsubsection}{\numberline {3.6.4}Self-Inversing functions}{16}{subsubsection.3.6.4}%
+\contentsline {subsection}{\numberline {3.7}Composite Functions}{16}{subsection.3.7}%
+\contentsline {subsubsection}{\numberline {3.7.1}Composite Function Notation}{16}{subsubsection.3.7.1}%
+\contentsline {subsubsection}{\numberline {3.7.2}Conditions for a composition to exist}{16}{subsubsection.3.7.2}%
+\contentsline {subsubsection}{\numberline {3.7.3}Finding Domain \& Range of a Composition}{16}{subsubsection.3.7.3}%
+\contentsline {subsection}{\numberline {3.8}Extensions}{16}{subsection.3.8}%
+\contentsline {subsubsection}{\numberline {3.8.1}Properties of Functions}{16}{subsubsection.3.8.1}%
+\contentsline {subsubsection}{\numberline {3.8.2}Inverse Trigonometic Functions}{16}{subsubsection.3.8.2}%
+\contentsline {subsubsection}{\numberline {3.8.3}Monotonic Functions}{16}{subsubsection.3.8.3}%
+\contentsline {subsubsection}{\numberline {3.8.4}*Floor and Ceiling Functions}{16}{subsubsection.3.8.4}%
+\contentsline {subsubsection}{\numberline {3.8.5}*Continuity \& Discontinuity}{16}{subsubsection.3.8.5}%
+\contentsline {section}{\numberline {4}Sequences \& Series}{17}{section.4}%
+\contentsline {section}{\numberline {5}Vectors}{17}{section.5}%
+\contentsline {section}{\numberline {6}Recurrence Relations}{18}{section.6}%
+\contentsline {section}{\numberline {7}Mathematical Induction}{18}{section.7}%
