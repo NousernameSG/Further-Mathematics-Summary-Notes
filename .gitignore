@@ -1,4 +1,4 @@
-#Ignoring all log files
+**/.DS_Store
 *.aux
 *.log
 *.out
