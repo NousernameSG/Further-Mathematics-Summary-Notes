@@ -12,7 +12,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-    <img src="Images/logo.jpg" alt="Logo" width="400" height="200">
+    <img src="Code Files/Images/logo.jpg" alt="Logo" width="400" height="200">
   </a>
 
   <h3 align="center">A-Level Further Mathematics Summary Notes</h3>
