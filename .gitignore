@@ -4,7 +4,3 @@
 *.log
 *.toc
 *.synctex.gz
-
-echo ".log" >> .gitignore
-echo ".toc" >> .gitignore
-echo ".synctex.gz" >> .gitignore
